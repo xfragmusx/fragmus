@@ -1,6 +1,6 @@
 a = 10
 b = 20
-c = (a == b)
+c = a == b
 print(c)
 
 KONSTANTA = "hello teatcher"
@@ -9,13 +9,13 @@ print((KONSTANTA) + str(a - b))
 e = [10, 20, False, KONSTANTA]
 print(e)
 
-print({10, 20, False, KONSTANTA})
+print(set(e))
 
-d = (11)
-f = (22)
+d = ("go")
+f = str(22)
 g = (d + f)
 
-print([g])
+print(list(g))
 
 dictionary = {
 'Hello': 25,
